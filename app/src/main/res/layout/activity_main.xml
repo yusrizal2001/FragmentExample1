@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragmentbooktitle"
+        android:name="id.ac.polbeng.yusrizal.fragmentexample1.BookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        tools:layout="@layout/book_titles"
+        tools:ignore="Suspicious0dp" />
+
+    <fragment
+        android:id="@+id/fragmentbookdescription"
+        android:name="id.ac.polbeng.yusrizal.fragmentexample1.BookDescription"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        tools:layout="@layout/book_description" />
+
+
+
+</LinearLayout>
